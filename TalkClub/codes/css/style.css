@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'VT323', monospace !important; 
+    
+
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+#login-body{
+    background-image: url("../img/you_look_lonely.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+}
+
+#register-body{
+    background-image: url("../img/i_can_fix_that.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+}
+
+#index-body{
+    background-image: url("../img/2049.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#question-body{
+    background-image: url(../img/ryan.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+}
+
+/* Index Page Start */
+
+/* NAVBAR START */
+#navbar-bg{
+    background-color: rgba(205, 56, 180, 0.85);
+    border: 5px solid white;
+    opacity: 0.85;
+    padding: 1rem;
+    z-index: 10;
+}
+
+#navbar-toggler{
+    border: solid black 3px;
+}
+
+#search-btn-id{
+    border-color: black;
+    --bs-btn-hover-bg: #198fbf;
+}
+  
+  #navbar-hover li a:hover {
+    color: rgba(255, 255, 255, 0.8);
+    transition: 0,5s;
+  }
+
+  #navbar-dropown-hover ul li a:hover{
+    background-color: rgba(205, 56, 180, 0.85);
+    color: white;
+  }
+  
+
+/* NAVBAR END */
+
+/* MAIN START */
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.main-container{
+    width: 80%;
+}
+
+#hot-bg{
+
+    background-color: #198fbf;
+    margin-top: 2rem;
+    opacity: 0.85;
+    color: white;
+    border: 5px solid white;
+    padding: 1.5rem;
+    
+}
+
+
+#table-bg {
+    background-color: black;
+    opacity: 0.85;
+    color: white;
+    border: 5px solid white;
+    border-collapse: collapse;
+    margin-top: 2rem;
+
+}
+
+th,td{
+    color: white;
+    border: 1px solid white;
+    padding: 1rem;
+    
+} 
+
+/* MAIN END */
+
+/* FORUM INFO START */
+
+#forum-info-id{
+    padding: 1rem;
+    font-size: larger;
+    background-color: rgba(205, 56, 180, 0.85);
+    opacity: 0.85;
+    border: solid white 5px;
+}
+/* FORUM INFO END */
+
+/* Index Page End */
+
+/* LOGIN PAGE START */
+
+#login-bg{
+
+    border-radius: 0px;
+    border: white solid 10px;
+}
+
+/* LOGIN PAGE END */
+
+/* REGISTER PAGE START */
+
+#register-bg{
+
+    border: white solid 5px;
+    border-radius: 0px;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+/* REGISTER PAGE END */
+
+/* QUESTION PAGE START */
+
+
+
+    #text-area{
+        width: 100%;
+        border: 2px solid white;
+        background-color: black;
+        opacity: 0.25;
+        color: white;
+        margin-bottom: 1rem;
+        
+    }
+
+
+
+    
+
+
+/* QUESTION PAGE END */
+
+/* POST PAGE START */
+
+
+
+/* posts table's body  */
+
+
+
+/* navigation path*/
+.navigate{
+    margin-block: 20px;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.navigate a{
+    color: #fff;
+}
+
+.navigate a:hover{
+    color:rgba(205, 56, 180, 0.85);
+}
+
+
+
+
+/* POST PAGE END */
+
+/* COMMENT PAGE START */
+
+#comment-page{
+    border-radius: 0px;
+    border: 5px solid white;
+    background-color: black;
+    opacity: 0.85;
+    color: white;
+    font-size: larger;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+/* COMMENT PAGE END */
+
